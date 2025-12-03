@@ -1,13 +1,13 @@
 {
-    "name": "darcula-mono",
-    "displayName": "Darcula Mono",
-    "description": "Darcula theme like JetBrains Mono website",
+    "name": "darcula-mono-cursor",
+    "displayName": "Darcula Mono (Cursor)",
+    "description": "Darcula Mono theme tuned for Cursor UI",
     "version": "1.0.0",
-    "publisher": "Killidia",
+    "publisher": "nohtaray",
     "icon": "icon.png",
     "repository": {
         "type": "git",
-        "url": "https://github.com/Killidia/darcula-mono"
+        "url": "https://github.com/nohtaray/darcula-mono-cursor"
     },
     "engines": {
         "vscode": "^1.62.0"
@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Darcula Mono",
+                "label": "Darcula Mono (Cursor)",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darcula Mono-color-theme.json"
             }
